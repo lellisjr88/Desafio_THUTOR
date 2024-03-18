@@ -1,3 +1,6 @@
+Copie o link disponível do repositório em seu repo local.
+utilize npm start para utilizar o projeto.
+---------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
