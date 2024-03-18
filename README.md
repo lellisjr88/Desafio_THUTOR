@@ -1,4 +1,4 @@
-Copie o link disponível do repositório em seu repo local.
+Faça um clone do projeto em sua máquina e
 utilize npm start para utilizar o projeto.
 ---------------------------------------------------------------------
 # Getting Started with Create React App
