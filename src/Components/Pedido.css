@@ -1,0 +1,82 @@
+.pedidoWrapper {
+  margin: 0 auto;
+  width: 770px;
+  position: relative;
+  top: -250px;
+}
+
+.tittlePedido {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e43636;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tituloPedido span {
+  color: #ffca00;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 70px;
+}
+
+.valorPedido span {
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 50px;
+}
+
+.descriptionWrapper img {
+  position: relative;
+  top: -30px;
+  left: -60px;
+  width: 110px;
+  border-radius: 10px;
+}
+.descriptionWrapper {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 7px 6px 14px -3px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 7px 6px 14px -3px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 7px 6px 14px -3px rgba(0, 0, 0, 0.72);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-left: -30px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description span {
+  color: #a03400;
+  font-weight: bold;
+}
+
+#saborDescription,
+#descriptionPedido {
+  font-weight: normal;
+}
+
+@media (max-width: 800px) {
+  .pedidoWrapper {
+    margin-top: 10px;
+    max-width: 300px;
+    position: static;
+    top: -250px;
+  }
+  .img {
+    display: none;
+  }
+  .description {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
