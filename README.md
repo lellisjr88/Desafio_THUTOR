@@ -1,5 +1,5 @@
 Faça um clone do projeto em sua máquina e
-utilize npm start para utilizar o projeto.
+utilize os comandos, npm install e npm start para iniciar o projeto.
 ---------------------------------------------------------------------
 # Getting Started with Create React App
 
